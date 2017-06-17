@@ -3,8 +3,8 @@
 #### Aktuelle Version (LTS)
 
 NodeJS Version v6.11.0 LTS:
-- Homepage, https://nodejs.org/en/>
-- API Docs, https://nodejs.org/dist/latest-v6.x/docs/api/>
+- Homepage, <https://nodejs.org/en/>
+- API Docs, <https://nodejs.org/dist/latest-v6.x/docs/api/>
 
 #### Installation unter Linux (x64)
 
