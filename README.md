@@ -8,10 +8,10 @@ NodeJS Version v6.11.0 LTS:
 
 #### Installation unter Linux (x64)
 
-Nach der Installation stehen die Kommandozeilentools `node` und `npm` zur Verfügung.
+Nach der Installation von NodeJS stehen die Tools `node` und `npm` zur Verfügung:
 
 - Script Interpreter und JS Runtime (`node`)
-- Node Packet Manager ('npm')
+- Node Packet Manager (`npm`)
 
 Manuelle Installation von NodeJS:
 ```
@@ -48,6 +48,34 @@ Direktes Ausführen des Scriptes:
 ```
 
 Beginnt das NodeJS Script mit der o.a. Instruktionsanweisung und wurde die Script-Datei mittels `chmod a+x *.js` ausführbar gemacht, kann das Script direkt gestartet werden.
+
+#### Vorlage für ein Programm-Script (main.js)
+
+```
+#!/usr/bin/env node
+/**
+ ** Node.JS Application
+ **
+ ** SimpleWebServer (2017)
+ */
+
+var http = require("http");
+var port = 8765;
+
+http.createServer(function (request, response) {
+
+   // Send the HTTP header
+   // HTTP Status: 200 : OK
+   // Content Type: text/plain
+   response.writeHead(200, {'Content-Type': 'text/plain'});
+
+   // Send the response body as "Hello World"
+   response.end('Hello World\n');
+}).listen(port);
+
+// Console will print the message
+console.log('Server running at http://127.0.0.1:'+port+'/');
+```
 
 #### Lokale Kopie erstellen (git)
 
