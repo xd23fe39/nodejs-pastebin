@@ -1,4 +1,9 @@
 /* Hello.js - Simple NodeJS Code */
 
-console.log("\nHello NodeJS!\n");
+function myFunc(arg) {
+  console.log(`Say: ${arg}`);
+}
 
+console.log("\nHello NodeJS!");
+
+setTimeout(myFunc, 1500, 'User');
