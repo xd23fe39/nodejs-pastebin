@@ -1,9 +1,12 @@
+#!/usr/bin/env node
 /* Hello.js - Simple NodeJS Code */
 
+var timeout = 3000;
+
 function myFunc(arg) {
-  console.log(`Say: ${arg}`);
+  console.log("Say: " + arg);
 }
 
-console.log("\nHello NodeJS!");
+console.log("Timeout: " + timeout + "\n");
 
-setTimeout(myFunc, 1500, 'User');
+setTimeout(myFunc, timeout, 'User');
