@@ -3,8 +3,8 @@
 #### Aktuelle Version (LTS)
 
 NodeJS Download:
-- Homepage, <https://nodejs.org/en/>
-- API Docs, <https://nodejs.org/dist/latest-v6.x/docs/api/>
+- [NodeJS Homepage](https://nodejs.org/en)
+- [API Reference Guide](https://nodejs.org/api/)
 
 #### Installation unter Linux (x64)
 
@@ -16,17 +16,18 @@ Nach der Installation von NodeJS stehen die Tools `node` und `npm` zur Verfügun
 Manuelle Installation von NodeJS:
 ```
 sudo -i
-INSTALL_PATH='/opt/node-v6'
-mkdir -p ${INSTALL_PATH}
-cd ${INSTALL_PATH}
-wget https://nodejs.org/dist/v6.11.0/node-v6.11.0-linux-x64.tar.xz
+mkdir /opt/node
+cd /opt/node
+DOWNLOAD_URL=https://nodejs.org/dist/v8.12.0/node-v8.12.0-linux-x64.tar.xz
+wget $DOWNLOAD_URL
 tar xf node-v6.11.0-linux-x64.tar.xz
-```
-
-Anlegen von Links unter `/opt/bin`
-```
-ln -s /opt/node-v6/node-v6.11.0-linux-x64/bin/node /usr/bin/node
-ln -s /opt/node-v6/node-v6.11.0-linux-x64/bin/npm /usr/bin/npm
+ln -s node-v8.12.0-linux-x64 current
+export PATH="/opt/node/current/bin:$PATH"
+cd /opt/node/current/bin
+ln -s node nodejs
+which node
+which nodejs
+which npm
 ```
 
 #### Das erste node.js-Programm

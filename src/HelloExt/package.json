@@ -1,0 +1,14 @@
+{
+  "name": "helloext",
+  "version": "1.0.0",
+  "description": "HelloExt",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HelloWorld"
+  ],
+  "author": "Frank",
+  "license": "ISC"
+}
