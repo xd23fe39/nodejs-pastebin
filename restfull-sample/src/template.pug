@@ -1,0 +1,19 @@
+//- template.pug
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+    body
+        #foo.bar
+            h2 #{name}
+            ul
+                li Directory: #{dirname}
+                li Filename: #{filename}
+        #form.name
+            p Formular
+            p Aktuelle Uhrzeit: #{time}
+            p Anzeige-Uhrzeit: #{in_time}
+            p Nächste volle Minute angeben:
+            form(action="", method="get")
+                input(type='text', name='in_minute')
+                input(type="submit", value="Senden")

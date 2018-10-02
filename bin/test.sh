@@ -4,6 +4,10 @@ NODE_VER=$(node -v)
 NPM_VER=$(npm -v)
 NODEJS_VER=$(nodejs -v)
 
+CURRENT_NODE="/opt/node/current"
+
+export PATH="$CURRENT_NODE/bin:$PATH"
+
 ## 
 # EXIT Codes
 ##

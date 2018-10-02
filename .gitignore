@@ -2,4 +2,7 @@
 BUILD/
 build/
 temp/
+node_modules/
 .secrets
+.vscode
+

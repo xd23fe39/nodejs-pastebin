@@ -1,0 +1,32 @@
+{
+  "name": "restfull-sample",
+  "version": "1.0.0",
+  "description": "Restfull Service using JSON and Express",
+  "main": "src/rest-server.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xd23fe39/nodejs-pastebin.git"
+  },
+  "keywords": [
+    "rest",
+    "express",
+    "json"
+  ],
+  "author": "Frank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xd23fe39/nodejs-pastebin/issues"
+  },
+  "homepage": "https://github.com/xd23fe39/nodejs-pastebin#readme"
+}
