@@ -1,0 +1,19 @@
+Platz;Verein;Spiele;Tore;Punkte
+1;Borussia Dortmund;21;54:23;50
+2;Bayern München;21;47:24;45
+3;Bor. Mönchengladbach;21;41:21;42
+4;RB Leipzig;21;38:18;38
+5;Eintracht Frankfurt;21;40:27;33
+6;Bayer Leverkusen;21;37:32;33
+7;Wolfsburg;21;32:30;32
+8;Hertha BSC;21;34:31;31
+9;1899 Hoffenheim;21;41:32;30
+10;Werder Bremen;21;36:32;30
+11;1. FSV Mainz 05;21;23:33;27
+12;Fortuna Düsseldorf;21;25:39;25
+13;SC Freiburg;21;29:37;23
+14;FC Schalke 04;21;25:32;22
+15;FC Augsburg;21;29:37;18
+16;VfB Stuttgart;21;17:47;15
+17;Hannover 96;21;20:44;14
+18;1. FC Nürnberg;21;17:46;12

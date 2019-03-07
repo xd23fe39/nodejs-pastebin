@@ -4,9 +4,9 @@
 var timeout = 3000;
 
 function myFunc(arg) {
-  console.log("Say: " + arg);
+  console.log("Say: " + arg + "\n");
 }
 
-console.log("Timeout: " + timeout + "\n");
+console.log("Wait: " + timeout + " Milliseconds.\n");
 
-setTimeout(myFunc, timeout, 'User');
+setTimeout(myFunc, timeout, 'HELLO!');
